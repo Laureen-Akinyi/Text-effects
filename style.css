@@ -1,0 +1,43 @@
+* {
+    background: beige;
+}
+.test {
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    border: 1px solid blue;
+}
+
+.test:hover {
+    overflow: visible;
+}
+
+.test1 {
+    width: 11em;
+    border: 1px solid black;
+    word-wrap: break-word;
+}
+
+.test2 {
+    width: 11em;
+    border: 2px solid black;
+    word-break: keep-all;
+}
+
+.test3 {
+    width: 11em;
+    border: 1.5px solid yellow;
+    word-break: break-all;
+}
+
+.writing {
+    writing-mode: horizontal-tb;
+}
+
+span.writing1 {
+    writing-mode: vertical-rl;
+}
+
+.writing1 {
+    writing-mode: vertical-rl;
+}

@@ -1,0 +1,48 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+
+div:hover {
+    width: 300px;
+}
+
+.example {
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    transition: width 2s, height 4s;
+}
+
+.example:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.example1 {
+    width: 100px;
+    height: 100px;
+    background: silver;
+    transition: width 3s;
+    transition-delay: 1s;
+}
+
+.example1:hover {
+    width: 350px;
+}
+
+.example2 {
+    width: 100px;
+    height: 100px;
+    margin: 70px;
+    background: slategray;
+    transition: width 2s, height 2s, transform 4s;
+}
+
+.example2:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}

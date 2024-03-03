@@ -1,0 +1,32 @@
+div {
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+#mydiv {
+    transform: rotate(20deg);
+}
+
+#mydiv1 {
+    transform: rotate(-20deg);
+}
+
+div.scale {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellowgreen;
+    border: 1.5px solid black;
+    transform: scale(2, 3);
+}
+
+div.scale1 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellowgreen;
+    border: 1.5px solid black;
+    transform: scale(0.5, 0.5);
+}
